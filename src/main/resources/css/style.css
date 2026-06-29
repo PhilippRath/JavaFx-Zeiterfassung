@@ -1,0 +1,94 @@
+/* Haupt-Layout-Styling */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+/* Button-Styling */
+.button {
+    -fx-background-color: #0078D4;
+    -fx-text-fill: white;
+    -fx-background-radius: 4px;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #106EBE;
+}
+
+.button:pressed {
+    -fx-background-color: #005A9E;
+}
+
+.button:disabled {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #666666;
+}
+
+/* Spezieller Löschen-Button */
+#btnLoeschen {
+    -fx-background-color: transparent;
+    -fx-text-fill: #a80000;
+    -fx-border-color: #a80000;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+}
+
+#btnLoeschen:hover {
+    -fx-background-color: #fde7e9;
+}
+
+/* Eingabefelder */
+.text-field, .date-picker {
+    -fx-background-radius: 4px;
+    -fx-border-color: #bababa;
+    -fx-border-radius: 4px;
+    -fx-background-color: white;
+}
+
+.text-field:focused, .date-picker:focused {
+    -fx-border-color: #0078D4;
+    -fx-border-width: 1.5px;
+}
+
+/* Tabelle */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 4px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f4f4f4;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-size: 35px;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #deecf9;
+    -fx-text-fill: black;
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 4px;
+}
+
+.list-view .list-cell {
+    -fx-padding: 8px;
+}
+
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #deecf9;
+    -fx-text-fill: black;
+}

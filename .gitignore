@@ -1,0 +1,18 @@
+# Maven target directory
+target/
+
+# SQLite database file
+*.db
+
+# IDE specific files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
