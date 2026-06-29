@@ -259,8 +259,8 @@ src/main/resources/
             <h1>Kapitel 4: Der Controller & Event-Handling</h1>
             <p>In diesem Kapitel verknüpfen wir die Benutzeroberfläche mit unserer Java-Logik und fangen Benutzeraktionen wie Button-Klicks ab.</p>
             
-            <h2>1. Die `@FXML`-Annotation</h2>
-            <p>Der Controller ist das Bindeglied zur FXML-Datei. Variablen und Methoden, die in der FXML-Datei deklariert sind (mittels <code>fx:id</code> bzw. <code>onAction</code>), müssen im Java-Code mit der `@FXML`-Annotation versehen werden, damit JavaFX sie per Dependency Injection verbinden kann.</p>
+            <h2>1. Die <code>@FXML</code>-Annotation</h2>
+            <p>Der Controller ist das Bindeglied zur FXML-Datei. Variablen und Methoden, die in der FXML-Datei deklariert sind (mittels <code>fx:id</code> bzw. <code>onAction</code>), müssen im Java-Code mit der <code>@FXML</code>-Annotation versehen werden, damit JavaFX sie per Dependency Injection verbinden kann.</p>
 
             <h2>2. Event-Handling beim Buchen</h2>
             <p>Wenn der Benutzer auf "Buchen" klickt, liest der Controller die Werte aus den Feldern aus, validiert die Zeiten (z.B. ob die Endzeit nach der Startzeit liegt), erzeugt ein <code>Zeiteintrag</code>-Objekt und speichert dieses über unser DAO-Interface in der SQLite-Datenbank.</p>
