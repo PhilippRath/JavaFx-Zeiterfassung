@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaFX Zeiterfassungsverwaltung - Lernportal</title>
+    <meta name="description" content="Didaktisches Lernportal für Fachinformatiker im 2. Lehrjahr. Lerne JavaFX, JDBC und saubere Software-Architekturen.">
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Google Fonts für moderne Typografie -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Skip-to-content Link für Screenreader und Tastaturbenutzer -->
+    <a href="#main-content" class="skip-link">Zum Inhalt springen</a>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-container">
+                <span class="logo-icon" aria-hidden="true">⏱️</span>
+                <span class="logo-title">Zeiterfassung Pro - Lernportal</span>
+            </div>
+            
+            <div class="header-actions">
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Design wechseln">
+                    <span id="theme-icon" aria-hidden="true">🌙</span>
+                    <span id="theme-text">Dunkel</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Wrapper (Sidebar + Content) -->
+        <div class="main-wrapper">
+            <!-- Navigation Sidebar -->
+            <nav class="sidebar" aria-label="Kapitelnavigation">
+                <h2 class="sidebar-title">Kapitelübersicht</h2>
+                <ul id="chapter-list" class="chapter-list">
+                    <!-- Wird dynamisch durch JavaScript befüllt -->
+                </ul>
+            </nav>
+
+            <!-- Content Area -->
+            <main id="main-content" class="content-area">
+                <article id="article-container" class="content-article">
+                    <!-- Der Inhalt des aktuellen Kapitels wird hier geladen -->
+                </article>
+
+                <!-- Page Navigation Buttons -->
+                <div class="page-nav-buttons">
+                    <button id="prev-btn" class="nav-btn" aria-label="Vorheriges Kapitel">
+                        &larr; Vorheriges Kapitel
+                    </button>
+                    <button id="next-btn" class="nav-btn" aria-label="Nächstes Kapitel">
+                        Nächstes Kapitel &rarr;
+                    </button>
+                </div>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>&copy; 2026 Lernportal Zeiterfassungsverwaltung - Fachinformatik 2. Lehrjahr</p>
+        </footer>
+    </div>
+
+    <!-- Einbindung der Kapiteldaten und Anwendungslogik -->
+    <script src="chapters.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
