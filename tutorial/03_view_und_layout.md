@@ -50,3 +50,10 @@ Erstelle die Datei `src/main/resources/css/style.css` im Projekt, um Buttons abz
 ## 5. Verständnisfragen für das Berichtsheft
 1. Worin besteht der Unterschied zwischen einer `HBox` und einem `GridPane`? Wann setzt man welchen Container sinnvollerweise ein?
 2. Wie bindet man ein Stylesheet in JavaFX ein und wie unterscheiden sich die CSS-Eigenschaften in JavaFX von denen im Webdesign (z. B. Background-Color)?
+
+---
+
+## 🌐 Nützliche Links & Video-Empfehlungen
+*   **[YouTube: codingenieur JavaFX & Scene Builder (YouTube)](https://www.youtube.com/results?search_query=codingenieur+JavaFX+Deutsch)** – Zeigt hervorragend, wie man mit dem Scene Builder Oberflächen strukturiert und Controls layoutet.
+*   **[ITcademy: JavaFX Layouts (YouTube)](https://www.youtube.com/results?search_query=ITcademy+JavaFX+Layouts)** – Vertiefende Erklärung zu BorderPane, HBox, VBox und GridPane.
+

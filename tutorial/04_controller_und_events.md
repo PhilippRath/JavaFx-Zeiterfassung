@@ -111,3 +111,10 @@ Füge folgende Methode zu deinem `MainController` hinzu:
 ## 4. Verständnisfragen für das Berichtsheft
 1. Welche Aufgabe übernimmt die `@FXML`-Annotation? Was passiert, wenn man sie vergisst, die Variable aber trotzdem in der FXML definiert ist?
 2. Warum sollten wir Geschäfts- und Validierungsfehler (wie ein falsches Zeitformat) im Controller abfangen und behandeln, statt das Programm abstürzen zu lassen?
+
+---
+
+## 🌐 Nützliche Links & Video-Empfehlungen
+*   **[ITcademy: JavaFX Buttons & Events (YouTube)](https://www.youtube.com/results?search_query=ITcademy+JavaFX+Buttons+Events)** – Einstieg in das Event-Handling und die Interaktion mit dem FXML-Controller.
+*   **[codingenieur: JavaFX Controller-Anbindung (YouTube)](https://www.youtube.com/results?search_query=codingenieur+JavaFX+Controller+FXML)** – Praxis-Guide für die Einbindung des Java-Controllers in die FXML-Datei.
+

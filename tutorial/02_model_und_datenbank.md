@@ -163,3 +163,11 @@ Erstelle `src/main/java/de/zeiterfassung/database/SQLiteZeiteintragDAO.java`:
 ## 4. Verständnisfragen für das Berichtsheft
 1. Beschreibe das DAO-Pattern. Welchen Vorteil bietet dieses Muster für die Softwarewartung und Testbarkeit (z. B. Mocking)?
 2. SQLite speichert Datums- und Uhrzeitwerte als Text. Welche Konsequenzen hat das für SQL-Vergleichsoperatoren (wie `<` oder `BETWEEN`)? Wie muss das Format gewählt sein, damit Vergleiche lexikografisch funktionieren?
+
+---
+
+## 🌐 Nützliche Links & Video-Empfehlungen
+*   **[Wikipedia: Data Access Object (DAO)](https://de.wikipedia.org/wiki/Data_Access_Object)** – Wikipedia-Definition und Diagramme zum Verständnis des DAO-Musters.
+*   **[YouTube: DAO Pattern Java Deutsch](https://www.youtube.com/results?search_query=DAO+Pattern+Java+Deutsch)** – Video-Erklärungen, die die Entkopplung von Business-Logik und DB-Zugriff anschaulich zeigen.
+*   **[YouTube: Java SQLite JDBC Deutsch](https://www.youtube.com/results?search_query=Java+SQLite+JDBC+Deutsch)** – Tutorials, wie man SQLite-Datenbankdateien mit JDBC anspricht.
+

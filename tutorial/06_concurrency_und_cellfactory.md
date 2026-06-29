@@ -115,3 +115,10 @@ lstArbeitstage.setCellFactory(new Callback<ListView<String>, ListCell<String>>()
 ## 3. Verständnisfragen für das Berichtsheft
 1. Warum führt der direkte Zugriff auf UI-Elemente (z. B. `lblStatus.setText()`) aus einem separaten Thread, den du selbst gestartet hast (`new Thread()`), zu einer Exception? Welches JavaFX-Werkzeug schafft hier Abhilfe, falls man doch einmal direkt interagieren muss?
 2. Beschreibe das Konzept von Zell-Wiederverwendung (Cell Recycling) in Listen. Warum ist es performanter, Zellen wiederzuverwenden, statt für jedes Element der Liste ein neues UI-Knoten-Objekt zu erzeugen?
+
+---
+
+## 🌐 Nützliche Links & Video-Empfehlungen
+*   **[Falconbyte: Concurrency in JavaFX (Web)](https://falconbyte.net/)** – Schriftliche Einführung in Threads, den JavaFX Application Thread, `Platform.runLater()` und `Task`.
+*   **[YouTube-Suche: JavaFX Threads und Concurrency](https://www.youtube.com/results?search_query=JavaFX+Threads+und+Concurrency)** – Videoanleitungen zum Thema Multithreading in JavaFX (warum die UI blockiert und wie man es löst).
+

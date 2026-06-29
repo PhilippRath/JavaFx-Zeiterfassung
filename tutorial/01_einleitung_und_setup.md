@@ -107,3 +107,10 @@ public class App extends Application {
 ## 4. Verständnisfragen für das Berichtsheft
 1. Warum trennen wir die Benutzeroberfläche (FXML) vom Programmcode (Java)? Welche Vorteile bietet diese Trennung im Team (z. B. Designer und Entwickler)?
 2. Was ist die Aufgabe der `module-info.java` und warum müssen wir Pakete explizit mit `opens` für andere Module freigeben?
+
+---
+
+## 🌐 Nützliche Links & Video-Empfehlungen
+*   **[Falconbyte: JavaFX Tutorial (Web)](https://falconbyte.net/)** – Eine hervorragende deutsche Textanleitung für die modularisierte Einrichtung von JavaFX-Projekten.
+*   **[ITcademy: JavaFX Einführung (YouTube)](https://www.youtube.com/results?search_query=ITcademy+JavaFX+Deutsch)** – Start-Videos, die zeigen, wie man JavaFX-Projekte aufsetzt und die Struktur versteht.
+

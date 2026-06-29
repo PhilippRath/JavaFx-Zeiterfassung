@@ -171,3 +171,10 @@ try (BufferedReader br = new BufferedReader(new FileReader("test.txt"))) {
 1. Schreibe eine Methode `double dividiere(double a, double b)`. Wenn `b == 0` ist, wirf eine benutzerdefinierte unchecked Exception namens `DivisionByZeroException`.
 2. Fange diese Exception in deiner Hauptmethode ab und gib eine verständliche Fehlermeldung auf der Konsole aus.
 3. **Try-with-Resources:** Simuliere eine Ressource, indem du eine Klasse `DatenbankVerbindung` schreibst, die das Interface `AutoCloseable` implementiert. Überschreibe die Methode `close()` und lasse sie `"Verbindung geschlossen!"` auf der Konsole ausgeben. Nutze diese Klasse in einem Try-with-Resources Block in deiner `main`-Methode, um zu demonstrieren, dass `close()` automatisch aufgerufen wird, selbst wenn im Block ein Fehler passiert.
+
+---
+
+## 🌐 Nützliche Links & Video-Empfehlungen
+*   **[SemperVideo: Java Tutorials für Anfänger (YouTube)](https://www.youtube.com/results?search_query=SemperVideo+Java+Tutorial)** – Sehr anschauliche Einführung in OOP, Vererbung und Klassen.
+*   **[ITcademy: Java Programmieren lernen (YouTube)](https://www.youtube.com/results?search_query=ITcademy+Java+Programmieren+lernen)** – Detaillierte Playlists für fortgeschrittene Themen wie Interfaces, Collections (`List`/`Map`) und Exception Handling.
+

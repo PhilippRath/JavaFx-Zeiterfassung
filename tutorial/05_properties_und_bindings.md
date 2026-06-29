@@ -73,3 +73,10 @@ btnSpeichern.disableProperty().bind(
 ## 4. Verständnisfragen für das Berichtsheft
 1. Worin unterscheidet sich eine `ObservableList` von einer klassischen `java.util.List` (wie `ArrayList`)?
 2. Erkläre den Unterschied zwischen einem unidirektionalen Binding (wie wir es beim Deaktivieren des Buttons genutzt haben) und einem bidirektionalen Binding.
+
+---
+
+## 🌐 Nützliche Links & Video-Empfehlungen
+*   **[Falconbyte: JavaFX Properties & Bindings (Web)](https://falconbyte.net/)** – Eine fundierte schriftliche Erklärung zum Thema Properties, Observern und Bindings in JavaFX.
+*   **[ITcademy: JavaFX Properties & Bindings (YouTube)](https://www.youtube.com/results?search_query=ITcademy+JavaFX+Properties+Bindings)** – Videotutorials zur reaktiven Datenverknüpfung und wie man Formularzustände automatisiert.
+
